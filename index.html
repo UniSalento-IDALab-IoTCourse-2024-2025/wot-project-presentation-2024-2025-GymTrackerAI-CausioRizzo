@@ -99,7 +99,15 @@
     <section id="funzionalita" style="display: flex; gap: 30px; align-items: flex-start;">
         <div class="funzionalita-container" style="flex: 1;">
             <h2>Funzionalità</h2>
+            <div style="flex: 1; text-align: center;">
+            <div style="position: relative; width: 100%; max-width: 300px; margin: 0 auto;">
+                <img id="gallery-image" src="assets/img_projects/screen_app/home_screen.png" alt="Funzionalità App" style="width: 100%; border-radius: 10px;">
+                <button onclick="prevImage()" style="position: absolute; top: 45%; left: -30px;">⬅️</button>
+                <button onclick="nextImage()" style="position: absolute; top: 45%; right: -30px;">➡️</button>
+            </div>
+        </div>
             <ul>
+                <br>
                 <li><strong>Acquisizione dati dal sensore:</strong> la <strong>SensorTile.box PRO</strong> rileva i dati in tempo reale tramite <strong>accelerometro</strong>, acquisendo l'accelerazione su tre assi (X, Y, Z).</li>
                 <li><strong>Connessione Bluetooth Low Energy (BLE):</strong> l'app Android permette: <ul>
                         <li>la scansione dei dispositivi BLE disponibili</li>
@@ -115,20 +123,6 @@
                 <li><strong>Storico degli allenamenti:</strong> ogni sessione viene salvata con data, esercizio, ripetizioni e durata, e può essere consultata dallo storico.</li>
                 <li><strong>Supporto in background:</strong> l’app continua a ricevere e gestire dati anche quando non è attiva in primo piano, garantendo <strong>monitoraggio continuo</strong> e <strong>basso consumo energetico</strong>.</li>
             </ul>
-        </div>
-        <div style="flex: 1; text-align: center;">
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <div style="position: relative; width: 100%; max-width: 300px; margin: 0 auto;">
-                <img id="gallery-image" src="assets/img_projects/screen_app/home_screen.png" alt="Funzionalità App" style="width: 100%; border-radius: 10px;">
-                <button onclick="prevImage()" style="position: absolute; top: 45%; left: -30px;">⬅️</button>
-                <button onclick="nextImage()" style="position: absolute; top: 45%; right: -30px;">➡️</button>
-            </div>
         </div>
     </section>
     <script>
