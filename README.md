@@ -14,13 +14,14 @@ Questo sito web ha lo scopo di presentare l'applicazione **GymTrackerAI**, un si
 - **Struttura del sito**:
   - `index.html`: homepage e struttura del contenuto  
   - `style.css`: stile grafico responsivo  
-  - `assets/`: immagini, demo app da Google Drive, icone  
+  - `assets/`: immagini, icone  
 - **Sezioni principali**:
   - Intro progetto  
   - Team (foto, email, GitHub)  
   - Funzionalità dell'app  
   - Galleria  
   - Contatti
+  - Visualizzazione demo su link Google Drive
 
 ---
 
